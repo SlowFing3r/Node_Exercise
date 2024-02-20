@@ -2,7 +2,6 @@ const router = require('express').Router();
 const controller = require('../controller/post');
 
 router.get('/', controller.all);
-
 router.post('/', controller.post);
 
 router.route('/:id')
